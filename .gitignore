@@ -1,0 +1,12 @@
+**/.env*
+**/.DS_Store
+tmp/
+legacy/
+node_modules/
+dist/
+*.log
+coverage/
+version.json
+.build/
+.cache
+.nvmrc
