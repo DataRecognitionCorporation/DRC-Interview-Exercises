@@ -12,3 +12,20 @@ After pulling the node branch, please run: &nbsp;&nbsp; ```npm install```.
 <br/> 
 #### Run js solution - Code entry point: app.js:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```npm run start-js```
+
+### Problem
+Using the REST API at https://gorest.co.in/public/v1/users print out a list of all gmail.com email addresses.
+<br/><br/>
+You may install an additional library (e.g. `node-fetch`).
+
+#### Expected output:
+Your final output should look something like (see also `expected-output.txt`):
+```
+kjhakjhhhhhk@gmail.com
+jhfhfigjhfwfhk@gmail.com
+kjhadfhsbsbk@gmail.com
+adhhdodhdajk@gmail.com
+shreya.prakash23@gmail.com
+```
+
+

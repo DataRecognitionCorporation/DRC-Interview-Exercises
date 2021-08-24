@@ -1,18 +1,18 @@
-import express from 'express';
-import bodyParser from 'body-parser';
+import fetch from 'node-fetch';
 
-const app = express();
-const port = 3000;
+const URL = 'https://gorest.co.in/public/v1/users';
 
-// Parse json request body middleware
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+const PATTERN = /gmail.com/;
 
-app.post('/', (req, res) => {
-  // Access request body json: req.body
-  res.send("Hello! - Post request received. Typescript version running.");
-});
+async function getUsers() {
+  const result = await fetch(URL);
+  return await result.json();
+}
 
-app.listen(port, () => {
-  return console.log(`server is listening on http://localhost:${port}`);
-});
+(async () => {
+  let data = await getUsers();
+
+  let emails = data.data.filter(r => r.email.match(PATTERN)).map(r => r.email);
+
+  for (let x of emails) console.log(x);
+})();
