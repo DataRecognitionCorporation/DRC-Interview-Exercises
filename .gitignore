@@ -10,3 +10,5 @@ version.json
 .build/
 .cache
 .nvmrc
+
+.vs/
