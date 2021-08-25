@@ -11,4 +11,4 @@ version.json
 .cache
 .nvmrc
 
-.vs/
+#.vs/
