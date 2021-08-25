@@ -1,22 +1,33 @@
 # DRC-Interview-Exercises
-### Node Exercise -
+
+## DM Developers
 This branch is to be used for DRC Node.js interview exercises. After you pull this branch, you have the option to create your solution in either Typescript or JS. DRC as a standard strives to use Typescript in any new development so you are encouraged to use Typescript but have the option to use JS.
-<br/>
-<br/>
+<br/><br/>
+
+### .Net Excercise
+Code the `Get()` and `Get(int id)` methods for `ParticipantsController`.
+
+- Use the solution (VS 2017+): `./dotNet/WebApplication1/WebApplication1.sln`
+- A skeleton controller is provided: `.../WebApplication1/Controllers/ParticipantController.cs`
+- Defined in the controller file is a simple data class: `Participant`
+- Use the static data element `Participant.Data` as your data source
+- The method `Get()` should return all items in `Participant.Data`
+- The method `Get(int id)` should return the item from `Participant.Data` with the matching id, or `null`
+- Optionally, adapt `Get()` to return only those items where the `name` is a partial match to the querystring-supplied value `nameLike`
+<br/><br/>
+
+### Node Exercise -
+Using the REST API at https://gorest.co.in/public/v1/users print out a list of all gmail.com email addresses.
+
 After pulling the node branch, please run: &nbsp;&nbsp; ```npm install```.
-<br/>
-<br/>
+
+You may install an additional library (e.g. `node-fetch`).
+
 #### Run Typescript solution - Code entry point: app.ts:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```npm start```
-<br/>
-<br/> 
+
 #### Run js solution - Code entry point: app.js:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```npm run start-js```
-
-### Problem
-Using the REST API at https://gorest.co.in/public/v1/users print out a list of all gmail.com email addresses.
-<br/><br/>
-You may install an additional library (e.g. `node-fetch`).
 
 #### Expected output:
 Your final output should look something like (see also `expected-output.txt`):
