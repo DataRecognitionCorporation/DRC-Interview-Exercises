@@ -31,22 +31,15 @@ namespace WebApplication1.Controllers {
   public class ParticipantsController : ApiController {
 
 
-    // GET api/participants
-    // <optional> GET api/participants?nameLike=aaa
+    // GET api/participants -- Return all Participants
+    // <optional> GET api/participants?nameLike=aaa -- Return any Participants with a partial name match of the 'nameLike' value in the query string
     public IEnumerable<Participant> Get() {
-      var query = ControllerContext.Request.GetQueryNameValuePairs().ToDictionary(kv => kv.Key, kv => kv.Value);
-      var nameLike = (from kv in query where kv.Key == "nameLike" select kv.Value).FirstOrDefault();
-
-      if (nameLike == null) {
-        return Participant.Data;
-      } else {
-        return (from p in Participant.Data where p.name.ToLower().Contains(nameLike) select p);
-      }
+      return null;
     }
 
-    // GET api/participants/344
+    // GET api/participants/344 -- Return Participant with the supplied id
     public Participant Get(int id) {
-      return (from p in Participant.Data where p.id == id select p).FirstOrDefault();
+      return null;
     }
 
   }
