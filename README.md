@@ -1,7 +1,7 @@
 # DRC-Interview-Exercises
 
 ## DM Developers
-This branch is to be used for DRC Node.js interview exercises. After you pull this branch, you have the option to create your solution in either Typescript or JS. DRC as a standard strives to use Typescript in any new development so you are encouraged to use Typescript but have the option to use JS.
+This branch is to be used for DM interview exercises. 
 <br/><br/>
 
 ### .Net Excercise
