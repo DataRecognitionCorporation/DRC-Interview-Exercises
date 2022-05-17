@@ -3,6 +3,7 @@
     "id": 1,
     "text": "fake question text here?",
     "type": "MultipleChoice",
+    "difficulty": 5,
     "options": [
       {
         "label": "answer-1",
@@ -25,22 +26,26 @@
   {
     "id": 2,
     "text": "Different Question Text Here.",
-    "type": "UserInput"
+    "type": "UserInput",
+    "difficulty": 3
   },
   {
     "id": 3,
     "text": "Fake Question",
-    "type": "UserInput"
+    "type": "UserInput",
+    "difficulty": 4
   },
   {
     "id": 4,
     "text": "Sample Question",
-    "type": "UserInput"
+    "type": "UserInput",
+    "difficulty": 5
   },
   {
     "id": 5,
     "text": "A different MC question",
     "type": "MultipleChoice",
+    "difficulty": 1,
     "options": [
       {
         "label": "Option A",
@@ -55,26 +60,31 @@
   {
     "id": 6,
     "text": "Some text here for slider question",
-    "type": "Slider"
+    "type": "Slider",
+    "difficulty": 1
   },
   {
     "id": 7,
     "text": "Assemble the parts to complete the puzzle",
-    "type": "Puzzle"
+    "type": "Puzzle",
+    "difficulty": 1
   },
   {
     "id": 8,
     "text": "Find all items that belong to a group",
-    "type": "Puzzle"
+    "type": "Puzzle",
+    "difficulty": 2
   },
   {
     "id": 9,
     "text": "Sample puzzle question text here",
-    "type": "Puzzle"
+    "type": "Puzzle",
+    "difficulty": 4
   },
   {
     "id": 10,
     "text": "Move the items from zone A to zone B in order",
-    "type": "DragDrop"
+    "type": "DragDrop",
+    "difficulty": 5
   }
 ]
