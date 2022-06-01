@@ -86,5 +86,23 @@
     "text": "Move the items from zone A to zone B in order",
     "type": "DragDrop",
     "difficulty": 5
+  },
+  {
+    "id": 11,
+    "text": "Just A Small Sample Question",
+    "type": "UserInput",
+    "difficulty": 1
+  },
+  {
+    "id": 12,
+    "text": "Sample puzzle question text here",
+    "type": "Puzzle",
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "text": "Move the items from box 1 to box A",
+    "type": "DragDrop",
+    "difficulty": 4
   }
 ]
